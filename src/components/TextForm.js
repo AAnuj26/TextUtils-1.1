@@ -36,7 +36,7 @@ export default function TextForm(props) {
     <>
       <div className="container">
         <h1 style={{ color: props.mode === "dark" ? "white" : "black" }}>
-          {props.heading}{" "}
+          {props.heading}{"Enter the text to analyze "}
         </h1>
         <div className="mb-3">
           <textarea
